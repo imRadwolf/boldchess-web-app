@@ -12,20 +12,6 @@
 The official chess web-based app of [BoldChess.com](https://boldchess.com/).
 It is a responsive web GUI for the Stockfish chess engine, offering analysis, evaluation, and graphical features.
 
----
-
-## Mission
-
-Our mission is to develop a modern, responsive, free, and open-source web-based chess app powered by the Stockfish chess engine.
-
----
-
-## Live Version
-
-- **Live URL**: [app.boldchess.com](https://app.boldchess.com/)
-
----
-
 ## Features
 
 - Load your chess position or game using FEN, PGN, or a move list.
@@ -42,20 +28,6 @@ Our mission is to develop a modern, responsive, free, and open-source web-based 
 - Visualize relevant squares based on Stockfish's static evaluation terms.
 - Dark interface with a pitch-black background for OLED screens, enhancing battery life and user experience.
 - Support for PCs, tablets, smartphones, and touch devices.
-
----
-
-## Available Windows
-
-- Chess Openings
-- Chessboard
-- Edit Board
-- Game History
-- Evaluation Graph
-- List of Moves
-- Static Evaluation
-
----
 
 ## GUI Instructions
 
@@ -113,22 +85,6 @@ The application is designed for easy deployment in any standard Node.js environm
 **Running the Server**: The main entry point is `server.js`, which serves the static files in the `public` directory, eliminating the need for a build process. This simplifies deployment and development.
 
 **No Build Required**: Reflecting the application's simplicity and the direct use of vanilla JavaScript, the 'build' script in `package.json` is intentionally minimal: `echo 'No build required'`. This is due to the architecture's focus on serving static assets without complex build processes or server-side rendering.
-
----
-
-## Important Improvements & Issues
-
-For a list of important improvements and known issues, visit our [GitHub Issues page](https://github.com/LabinatorSolutions/boldchess-web-app/issues).
-
----
-
-## Contribution
-
-We welcome all developers to contribute by adding features or fixing bugs.
-
-**Current Contributors**:
-
-Visit the [Contributors page](https://github.com/LabinatorSolutions/boldchess-web-app/graphs/contributors) to see the list of contributors.
 
 ---
 
