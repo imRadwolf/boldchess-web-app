@@ -14,7 +14,7 @@ const https = require('https');
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 10001;
 
 // Set security HTTP headers
 // Use helmet to set various security-related headers
